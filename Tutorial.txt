@@ -1,0 +1,10 @@
+Criar as pastas:
+App
+  |->Routers -> routers.js
+  |->Wiews
+      |-> Pages -> Os arquivos ejs.
+
+Instalação dos modulos:
+
+express
+ejs
