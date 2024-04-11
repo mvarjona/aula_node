@@ -10,5 +10,6 @@ module.exports = function(){
         password: 'NodeJS@12node',
         database: 'aula_node',
         port: process.env.PORTDB
+                                             
     })
 }

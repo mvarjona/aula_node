@@ -1,8 +1,6 @@
 
-
+//Verificar a idade, se menor de 18 return = false, se maior de 18 return = true
 function VerificaIdade(dataNasc) {
-
-
       const dataDia = new Date();
       const dn = new Date(dataNasc);
       console.log(dn);
@@ -18,11 +16,16 @@ function VerificaIdade(dataNasc) {
       }else{
         return false;
       } 
+}
+function VerificaEmail(email){
+      return true
 
+  
 }
 
 
+
 module.exports = {
-  VerificaIdade
-  
+  VerificaIdade,
+  VerificaEmail  
 }
